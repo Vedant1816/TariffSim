@@ -19,7 +19,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://tarrif-sim.vercel.app"],  
+    origin: ["http://localhost:5173", "https://tariff-sim.vercel.app"],  
     credentials: true,
   })
 );
